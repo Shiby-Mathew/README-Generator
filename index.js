@@ -12,8 +12,20 @@ const main = () => {
       },
       {
         type: "list",
-        message: "Select kind of license for this application",
-        choices: "[]",
+        message: "Select which kind of license for this application",
+        name: "license",
+        choices: [
+          "None",
+          "Apache License 2.0",
+          "GNU General Public License v3.0",
+          "MIT License",
+          "Boost Software License 1.0",
+          "Eclipse Publi License 2.0",
+          "Creative Commons Zero v1.0 Universal",
+          "GNU Affero GeneralPublic License v3.0 ",
+          "GNU General Public License v2.0",
+          "GNU Lesser General Public License v2.1",
+        ],
       },
       {
         type: "input",
@@ -22,23 +34,25 @@ const main = () => {
       },
       {
         type: "input",
-        message: "How do insatll this application",
+        message: "How do I insatll this application",
         name: "installation",
       },
 
       {
         type: "input",
-        message: "Github username",
+        message: "Link of Your GitHub",
         name: "github",
       },
       {
         type: "input",
-        message: "Your e-mail",
+        message: "Your email id for contact",
         name: "email",
       },
     ])
     .then((data) => {
       console.log(data);
+
+      // fs.writeFile("README.md")
     });
 };
 main();
