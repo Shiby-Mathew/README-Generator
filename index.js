@@ -51,8 +51,7 @@ const main = () => {
     ])
     .then((data) => {
       console.log(data);
-
-      // fs.writeFile("README.md")
+      const generateReadme = fs.writeFile("README.md");
     });
 };
 main();
