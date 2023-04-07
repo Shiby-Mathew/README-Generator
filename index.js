@@ -51,7 +51,34 @@ const main = () => {
     ])
     .then((data) => {
       console.log(data);
-      const generateReadme = fs.writeFile("README.md");
+      const { description, license, name, installation, github, email } = data;
+      const generateReadme = `# README-Generator
+      ${name}
+
+      ## Description
+
+      ${description}
+      
+      ## Table of contents
+    
+      
+      ## License
+      ${license}
+      
+      ## Usage
+      
+      ## Installation
+      ${installation}
+      
+      ### Reach me
+      ${github}
+      ${email}
+
+      `;
+
+      fs.appendFile("README.md", generateReadme, (err) => {
+        err ? console.error(err) : console.log("readme genrated");
+      });
     });
 };
 main();
