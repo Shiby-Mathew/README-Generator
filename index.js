@@ -10,6 +10,7 @@ const main = () => {
         message: "What is the title of this application",
         name: "name",
       },
+
       {
         type: "list",
         message: "Select which kind of license for this application",
@@ -52,32 +53,45 @@ const main = () => {
     .then((data) => {
       console.log(data);
       const { description, license, name, installation, github, email } = data;
-      const generateReadme = `# README-Generator
-      ${name}
-
-      ## Description
-
-      ${description}
+      const generateReadme = `
       
-      ## Table of contents
+      
+ # README-Generator
+
+    ${name}
+
+  ## Description
+
+    ${description}
+      
+  ## Table of contents
+
+   + Red
+   + Green
+   + Blue
     
       
-      ## License
-      ${license}
+  ## License
+    ${license}
       
-      ## Usage
+  ## Usage
       
-      ## Installation
-      ${installation}
+  ## Installation
+  
+    ${installation}
       
-      ### Reach me
-      ${github}
-      ${email}
+  ### Reach me
+
+   [Github link ](${github})
+   [Email id ](${email})
+    
 
       `;
+      const fileName = "README.md";
 
-      fs.appendFile("README.md", generateReadme, (err) => {
-        err ? console.error(err) : console.log("readme genrated");
+      //const fileName = `${read.toUpperCase().split(" ").join("")}.md`;
+      fs.writeFile(fileName, generateReadme, (err) => {
+        err ? console.error(err) : console.log("readme generated");
       });
     });
 };

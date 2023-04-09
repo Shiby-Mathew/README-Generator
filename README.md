@@ -1,20 +1,34 @@
-# README-Generator
-      readme.md
+
+      
+      
+ # README-Generator
+
+    sample
+
   ## Description
 
-      hjjk
+    jgjk
       
- ## Table of contents
+  ## Table of contents
+
+   + Red
+   + Green
+   + Blue
     
+      
   ## License
-      GNU General Public License v3.0
+    Apache License 2.0
       
- ## Usage
+  ## Usage
       
- ## Installation
-      kjhhkj
- ### Reach me
-      jkhjkh
-      jh
+  ## Installation
+  
+    nbmbmj
+      
+  ### Reach me
+
+   [Github link ](bm)
+   [Email id ](jh)
+    
 
       
