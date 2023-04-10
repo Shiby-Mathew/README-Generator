@@ -1,13 +1,27 @@
 const fs = require("fs");
-
 const inquirer = require("inquirer");
+
+const generateLicenseBadge = (license) => {
+  let licenseBadge = ``;
+  switch (license) {
+    case "Apache License 2.0":
+      licenseBadge =
+        "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      break;
+    case "MIT License":
+      licenseBadge =
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
+  }
+  return licenseBadge;
+};
 
 const main = () => {
   inquirer
     .prompt([
       {
         type: "input",
-        message: "What is the title of this application",
+        message: "What is the title of this application ?",
         name: "name",
       },
 
@@ -30,67 +44,112 @@ const main = () => {
       },
       {
         type: "input",
-        message: "What does this appliction do",
+        message: "What does this application do ?",
         name: "description",
       },
       {
         type: "input",
-        message: "How do I insatll this application",
+        message: "How do I install this application ?",
         name: "installation",
       },
 
       {
         type: "input",
-        message: "Link of Your GitHub",
+        message: "How do I Contribute to this application ?",
+        name: "contribution",
+      },
+      {
+        type: "input",
+        message: "How do I use this application ?",
+        name: "usage",
+      },
+
+      {
+        type: "input",
+        message: "How do I tests this application ?",
+        name: "test",
+      },
+
+      {
+        type: "input",
+        message: "User name of Your GitHub",
         name: "github",
       },
       {
         type: "input",
-        message: "Your email id for contact",
+        message: "What is your email-id for contact ?",
         name: "email",
       },
     ])
     .then((data) => {
       console.log(data);
-      const { description, license, name, installation, github, email } = data;
+      const {
+        description,
+        license,
+        name,
+        installation,
+        contribution,
+        usage,
+        test,
+        github,
+        email,
+      } = data;
       const generateReadme = `
       
-      
- # README-Generator
+#  ${name}
 
-    ${name}
 
-  ## Description
+## Badge
 
-    ${description}
-      
-  ## Table of contents
+${generateLicenseBadge(license)}
 
-   + Red
-   + Green
-   + Blue
-    
-      
-  ## License
-    ${license}
-      
-  ## Usage
-      
-  ## Installation
-  
-    ${installation}
-      
-  ### Reach me
+## Table of contents
 
-   [Github link ](${github})
-   [Email id ](${email})
-    
+- [Description](#description)
+- [License](#license)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Tests](#tests)
+- [Questions](#questions)
 
+
+## Description
+
+${description}
+
+## Installation
+
+${installation}
+
+
+## Usage
+
+${usage}
+
+![Screenshots](path)
+
+## License
+
+This application is covered by ${license} license.
+
+
+## How to Contribute
+
+${contribution}
+
+## Tests
+
+${test}
+
+### Questions ?
+
+Follow me on Github: [GitHub profile ](https://github.com/${github})
+<br/>
+
+More Questions: [How to reach me ](${email})
       `;
-      const fileName = "README.md";
-
-      //const fileName = `${read.toUpperCase().split(" ").join("")}.md`;
-      fs.writeFile(fileName, generateReadme, (err) => {
+      //(https://github.com/${github})
+      fs.writeFile("README.md", generateReadme, (err) => {
         err ? console.error(err) : console.log("readme generated");
       });
     });
