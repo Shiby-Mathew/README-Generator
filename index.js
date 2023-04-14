@@ -167,7 +167,7 @@ ${contribution}
 
 ${test}
 
-## Questions ?
+## Questions
 
 Follow me on Github: [GitHub profile ](https://github.com/${github})
 <br/>
