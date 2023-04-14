@@ -109,8 +109,11 @@ const main = () => {
         email,
       } = data;
       const generateReadme = `
-      
+
+ The deployed link can be viewed here
+ https://shiby-mathew.github.io/README-Generator/
 #  ${name}
+
 
 
 ## Badge
@@ -133,10 +136,14 @@ ${description}
 
 ## Installation
 
+The following necessary software/tools must be installed to run this application:
+
 ${installation}
 
 
 ## Usage
+
+To use this application:
 
 ${usage}
 
@@ -147,7 +154,7 @@ ${usage}
 This application is covered by ${license} license.
 
 
-## How to Contribute
+## Contribution
 
 ${contribution}
 

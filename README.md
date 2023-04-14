@@ -1,6 +1,9 @@
 
-      
-#  Sample Application
+
+ The deployed link can be viwed here
+ https://shiby-mathew.github.io/README-Generator/
+#  Demo
+
 
 
 ## Badge
@@ -19,16 +22,20 @@
 
 ## Description
 
-This a demo Application
+This is a demo application
 
 ## Installation
 
-No need to install
+The following necessary software/tools must be installed to run this application:
+
+No need to install Demo
 
 
 ## Usage
 
-This is a demo application
+To use this application:
+
+This is a demo
 
 ![Screenshots](path)
 
@@ -37,18 +44,18 @@ This is a demo application
 This application is covered by MIT License license.
 
 
-## How to Contribute
+## Contribution
 
-This a demo
+No contribution
 
 ## Tests
 
-No need to test
+No need to test this application
 
 ### Questions ?
 
 Follow me on Github: [GitHub profile ](https://github.com/shiby-mathew)
 <br/>
 
-More Questions: [How to reach me ](example@gmail.com)
+More Questions: [How to reach me ](shiby.ajay@gmail.com)
       
