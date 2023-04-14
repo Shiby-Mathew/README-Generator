@@ -1,6 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
+//function to get the Badge for any license you selected
 const generateLicenseBadge = (license) => {
   let licenseBadge = ``;
   switch (license) {
@@ -34,7 +35,9 @@ const generateLicenseBadge = (license) => {
   return licenseBadge;
 };
 
+//main function
 const main = () => {
+  //prompt asking for user inputs
   inquirer
     .prompt([
       {
@@ -95,6 +98,8 @@ const main = () => {
         name: "email",
       },
     ])
+
+    //Destructure the object
     .then((data) => {
       console.log(data);
       const {
@@ -108,11 +113,12 @@ const main = () => {
         github,
         email,
       } = data;
+      //Readme body structure
       const generateReadme = `
 
 #  ${name}
 
-The deployed link can be viewed here
+The deployed link can be viewed here :
 https://shiby-mathew.github.io/README-Generator/
 
 ## Badge
@@ -126,7 +132,7 @@ ${generateLicenseBadge(license)}
 - [Usage](#usage)
 - [Installation](#installation)
 - [Tests](#tests)
-- [Questions](#questions)
+- [Questions](#questions ?)
 
 
 ## Description
@@ -152,8 +158,7 @@ ${usage}
 
 This application is covered by ${license} license.
 
-
-## Contribution
+## How to Contribute
 
 ${contribution}
 
@@ -161,14 +166,14 @@ ${contribution}
 
 ${test}
 
-### Questions ?
+## Questions ?
 
 Follow me on Github: [GitHub profile ](https://github.com/${github})
 <br/>
 
 More Questions: [How to reach me ](${email})
       `;
-      //(https://github.com/${github})
+      //write readme file
       fs.writeFile("README.md", generateReadme, (err) => {
         err ? console.error(err) : console.log("readme generated");
       });

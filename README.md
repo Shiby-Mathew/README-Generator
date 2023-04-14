@@ -1,13 +1,13 @@
 
 
-#  Sample Application
+#  sample application
 
-The deployed link can be viewed here
+The deployed link can be viewed here :
 https://shiby-mathew.github.io/README-Generator/
 
 ## Badge
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of contents
 
@@ -16,45 +16,44 @@ https://shiby-mathew.github.io/README-Generator/
 - [Usage](#usage)
 - [Installation](#installation)
 - [Tests](#tests)
-- [Questions](#questions)
+- [Questions](#questions ?)
 
 
 ## Description
 
-This is a application generates readme file automatically
+nothing
 
 ## Installation
 
 The following necessary software/tools must be installed to run this application:
 
-No need to install anything
+no need to install
 
 
 ## Usage
 
 To use this application:
 
-This is a demo
+no need 
 
 ![Screenshots](path)
 
 ## License
 
-This application is covered by MIT License license.
+This application is covered by Apache License license.
 
+## How to Contribute
 
-## Contribution
-
-This is a demo application
+no need
 
 ## Tests
 
-No need to test 
+nothing demo
 
-### Questions ?
+## Questions ?
 
-Follow me on Github: [GitHub profile ](https://github.com/shiby-ajay)
+Follow me on Github: [GitHub profile ](https://github.com/shib)
 <br/>
 
-More Questions: [How to reach me ](example@gmail.com)
+More Questions: [How to reach me ](jj)
       
