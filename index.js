@@ -110,11 +110,10 @@ const main = () => {
       } = data;
       const generateReadme = `
 
- The deployed link can be viewed here
- https://shiby-mathew.github.io/README-Generator/
 #  ${name}
 
-
+The deployed link can be viewed here
+https://shiby-mathew.github.io/README-Generator/
 
 ## Badge
 

@@ -1,10 +1,9 @@
 
 
- The deployed link can be viwed here
- https://shiby-mathew.github.io/README-Generator/
-#  Demo
+#  Sample Application
 
-
+The deployed link can be viewed here
+https://shiby-mathew.github.io/README-Generator/
 
 ## Badge
 
@@ -22,13 +21,13 @@
 
 ## Description
 
-This is a demo application
+This is a application generates readme file automatically
 
 ## Installation
 
 The following necessary software/tools must be installed to run this application:
 
-No need to install Demo
+No need to install anything
 
 
 ## Usage
@@ -46,16 +45,16 @@ This application is covered by MIT License license.
 
 ## Contribution
 
-No contribution
+This is a demo application
 
 ## Tests
 
-No need to test this application
+No need to test 
 
 ### Questions ?
 
-Follow me on Github: [GitHub profile ](https://github.com/shiby-mathew)
+Follow me on Github: [GitHub profile ](https://github.com/shiby-ajay)
 <br/>
 
-More Questions: [How to reach me ](shiby.ajay@gmail.com)
+More Questions: [How to reach me ](example@gmail.com)
       
