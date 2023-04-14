@@ -113,10 +113,11 @@ const main = () => {
         github,
         email,
       } = data;
+      const nameUpperCase = name.charAt(0).toUpperCase() + name.slice(1);
       //Readme body structure
       const generateReadme = `
 
-#  ${name}
+#  ${nameUpperCase}
 
 The deployed link can be viewed here :
 https://shiby-mathew.github.io/README-Generator/
@@ -132,7 +133,7 @@ ${generateLicenseBadge(license)}
 - [Usage](#usage)
 - [Installation](#installation)
 - [Tests](#tests)
-- [Questions](#questions ?)
+- [Questions](#questions)
 
 
 ## Description

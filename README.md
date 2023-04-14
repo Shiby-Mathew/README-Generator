@@ -1,13 +1,13 @@
 
 
-#  sample application
+#  Sample application
 
 The deployed link can be viewed here :
 https://shiby-mathew.github.io/README-Generator/
 
 ## Badge
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of contents
 
@@ -16,44 +16,44 @@ https://shiby-mathew.github.io/README-Generator/
 - [Usage](#usage)
 - [Installation](#installation)
 - [Tests](#tests)
-- [Questions](#questions ?)
+- [Questions](#questions)
 
 
 ## Description
 
-nothing
+This is a demo application, generating readme file using node.js
 
 ## Installation
 
 The following necessary software/tools must be installed to run this application:
 
-no need to install
+No need to install 
 
 
 ## Usage
 
 To use this application:
 
-no need 
+This is a demo
 
 ![Screenshots](path)
 
 ## License
 
-This application is covered by Apache License license.
+This application is covered by MIT License license.
 
 ## How to Contribute
 
-no need
+This is a demo
 
 ## Tests
 
-nothing demo
+No need to test demo application
 
 ## Questions ?
 
-Follow me on Github: [GitHub profile ](https://github.com/shib)
+Follow me on Github: [GitHub profile ](https://github.com/shiby-mathew)
 <br/>
 
-More Questions: [How to reach me ](jj)
+More Questions: [How to reach me ](example@gmail.com)
       
