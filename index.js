@@ -132,6 +132,7 @@ ${generateLicenseBadge(license)}
 - [License](#license)
 - [Usage](#usage)
 - [Installation](#installation)
+- [Contribution](#contribution)
 - [Tests](#tests)
 - [Questions](#questions)
 
@@ -159,7 +160,7 @@ ${usage}
 
 This application is covered by ${license} license.
 
-## How to Contribute
+## Contribution
 
 ${contribution}
 
