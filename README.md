@@ -22,13 +22,13 @@ https://shiby-mathew.github.io/README-Generator/
 
 ## Description
 
-This is a demo application, generating README file automatically
+This is demo application,generating README file automatically
 
 ## Installation
 
 The following necessary software/tools must be installed to run this application:
 
-This is a demo, no need to insatll
+This is a demo, no need to install
 
 
 ## Usage
@@ -53,7 +53,7 @@ No need to test
 
 ## Questions
 
-Follow me on Github: [GitHub profile ](https://github.com/shiby-ajay)
+Follow me on Github: [GitHub profile ](https://github.com/shiby-mathew)
 <br/>
 
 More Questions: [How to reach me ](example@gmail.com)
