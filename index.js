@@ -119,7 +119,7 @@ const main = () => {
 
 #  ${nameUpperCase}
 
-The deployed link can be viewed here :
+The link for my deployed wesite can viewed here:
 https://shiby-mathew.github.io/README-Generator/
 
 ## Badge
