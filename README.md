@@ -1,13 +1,13 @@
 
 
-#  Sample Application
+#  Sample application
 
 The link for my deployed wesite can viewed here:
 https://shiby-mathew.github.io/README-Generator/
 
 ## Badge
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of contents
 
@@ -22,13 +22,13 @@ https://shiby-mathew.github.io/README-Generator/
 
 ## Description
 
-This is a demo application, generating README file automatically
+This is a demo application, generating README automatically
 
 ## Installation
 
 The following necessary software/tools must be installed to run this application:
 
-This is a demo no need to insatll
+This is a demo ,no need to install
 
 
 ## Usage
@@ -41,7 +41,7 @@ This is a demo
 
 ## License
 
-This application is covered by MIT License license.
+This application is covered by Apache License license.
 
 ## Contribution
 
@@ -49,9 +49,9 @@ This is a demo
 
 ## Tests
 
-no need to test
+No need to test
 
-## Mock-up video
+## Video Link
 
 [![Walk through video](https://drive.google.com/file/d/1050yuz5ZPEHHlQT4kSLF1UTdgcfPjin_/view.png)](https://drive.google.com/file/d/1050yuz5ZPEHHlQT4kSLF1UTdgcfPjin_/view)
 

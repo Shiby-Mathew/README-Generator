@@ -168,7 +168,7 @@ ${contribution}
 
 ${test}
 
-## Mock-up video
+## Video Link
 
 [![Walk through video](https://drive.google.com/file/d/1050yuz5ZPEHHlQT4kSLF1UTdgcfPjin_/view.png)](https://drive.google.com/file/d/1050yuz5ZPEHHlQT4kSLF1UTdgcfPjin_/view)
 
