@@ -1,6 +1,6 @@
 
 
-#  Sample application
+#  Sample Application
 
 The link for my deployed wesite can viewed here:
 https://shiby-mathew.github.io/README-Generator/
@@ -22,13 +22,13 @@ https://shiby-mathew.github.io/README-Generator/
 
 ## Description
 
-This is demo application,generating README file automatically
+This is a demo application, generating README file automatically
 
 ## Installation
 
 The following necessary software/tools must be installed to run this application:
 
-This is a demo, no need to install
+This is a demo no need to insatll
 
 
 ## Usage
@@ -49,7 +49,11 @@ This is a demo
 
 ## Tests
 
-No need to test
+no need to test
+
+## Mock-up video
+
+[![Walk through video](https://drive.google.com/file/d/1050yuz5ZPEHHlQT4kSLF1UTdgcfPjin_/view.png)](https://drive.google.com/file/d/1050yuz5ZPEHHlQT4kSLF1UTdgcfPjin_/view)
 
 ## Questions
 

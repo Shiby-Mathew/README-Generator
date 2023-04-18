@@ -168,6 +168,10 @@ ${contribution}
 
 ${test}
 
+## Mock-up video
+
+[![Walk through video](https://drive.google.com/file/d/1050yuz5ZPEHHlQT4kSLF1UTdgcfPjin_/view.png)](https://drive.google.com/file/d/1050yuz5ZPEHHlQT4kSLF1UTdgcfPjin_/view)
+
 ## Questions
 
 Follow me on Github: [GitHub profile ](https://github.com/${github})
